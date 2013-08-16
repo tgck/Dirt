@@ -1,3 +1,4 @@
+#pragma once
 #include <jack/jack.h>
 
 #define CHANNELS 2

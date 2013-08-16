@@ -1,5 +1,5 @@
-#include <sndfile.h>
-#include <samplerate.h>
+#include "sndfile.h"
+#include "samplerate.h"
 #include <string.h>
 #include <dirent.h>
 #include <stdlib.h>

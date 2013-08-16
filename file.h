@@ -1,4 +1,4 @@
-#include <sndfile.h>
+#include "sndfile.h"
 
 #define MAXSAMPLES 1024
 #define MAXFILES 4096
