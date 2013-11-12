@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #include "sndfile.h"
+=======
+#include <sndfile.h>
+#include <dirent.h>
+>>>>>>> 1c980c066eebc0735120b448f2bf7ed415839e17
 
 #define MAXSAMPLES 1024
 #define MAXFILES 4096
@@ -33,6 +38,7 @@ typedef struct {
   int initialised;
 } t_loop;
 
+int wav_filter (const struct dirent *d);
 extern void file_set_samplerate(int s);
 extern t_sample *file_get(char *samplename);
 t_loop *new_loop(float seconds);
